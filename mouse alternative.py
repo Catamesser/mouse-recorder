@@ -1,6 +1,5 @@
 import time
 from pynput import mouse
-import math
 from pynput.mouse import Controller
 
 
@@ -39,5 +38,5 @@ for position in mouse_movements:
 if(time_set < 60):
     print(f"Replayed the last {time_set} seconds of your mouse")
 else: 
-    print(f"Replayed the last {time_set / 60} minutes of your mouse")
-  
+    print(f"Replayed the last {round(time_set / 60, 2)} minutes of your mouse")
+    
