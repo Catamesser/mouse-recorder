@@ -37,7 +37,3 @@ Ensure that you do not move the mouse during the replay process, as it may disru
 This script is intended for use in a dual-monitor setup, but it can be modified for single-monitor use if needed and even for laptop or monitors with higher resolutions than 1920.
 Example
 If you enter 5 for the runtime, the script will record your mouse movements for 5 seconds and then replay them.
-
-
-Imma be honest this README file is all chatgpt, im not writing all that 💀🔥.
-
